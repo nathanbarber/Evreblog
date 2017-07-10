@@ -1,0 +1,15 @@
+<div id="post" ng-controller="post">
+    <link rel="stylesheet" href="css/_post.css">
+    <div id="currentStory">
+        
+    </div>
+    <div id="inputWrap"><textarea 
+        ng-model="currentInput" 
+        ng-model-options="{ getterSetter: true }" 
+        ng-keydown="submit($event)"
+        maxlength="120" 
+        spellcheck="false" 
+        id="input"></textarea></div>
+    <br>
+    <div id="inputCount" ng-bind="120 - currentInput.length"></div>
+</div>

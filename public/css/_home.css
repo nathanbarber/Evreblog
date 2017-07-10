@@ -1,0 +1,70 @@
+#snap {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 5vh;
+}
+#leftsnap {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: right;
+    font-size: 5vh;
+}
+#face {
+    font-size: 16vh;
+}
+
+#plink {
+    width: 20vw;
+    position: relative;
+    height: 8vh;
+    border: 3px white solid;
+    text-align: center;
+    float: right;
+    margin-top: 20vh;
+    margin-left: 15vh;
+    margin-right: 25vh;
+    overflow: hidden;
+}
+#plink .juice {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+    background-color: white;
+}
+#plink .content {
+    position: absolute;
+    line-height: 8vh;
+    font-size: 4vh;
+    color: white;
+    font-family: Oswald;
+    margin-left: 5%;
+    user-select: none;
+    cursor: default;
+    z-index: 10;
+}
+
+@media screen and (max-aspect-ratio: 3/4) {
+    #snap {
+        font-size: 3vh;
+        float: initial;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #face {
+        font-size: 7vh;
+    }
+    #plink {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 60vw;
+        float: initial;
+    }
+    #plink .content {
+        text-align: center;
+        width: 100%;
+        margin-left: initial;
+    }
+}

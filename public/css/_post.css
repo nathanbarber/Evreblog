@@ -1,0 +1,33 @@
+#currentStory {
+    font-size: 3vw;
+    width: 70vw;
+    margin-top: 60px;
+    margin-left: 15vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#input {
+    outline-style: none;
+    font-size: 2.5vw;
+    color: white;
+    background-color: transparent;
+    width: 70vw;
+    font-family: Railway;
+    resize: none;
+    border: none;
+}
+
+#inputWrap {
+    border: 3px solid white;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 60px; 
+    margin-left: 15vw;
+}
+
+#inputCount {
+    font-family: Oswald;
+    font-size: 2vw;
+    margin-left: 15vw;
+}

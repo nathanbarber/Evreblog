@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Railway';
+    src: url('fonts/rw.ttf')
+}
+@font-face {
+    font-family: 'Railway';
+    src: url('fonts/rwli.ttf');
+    font-style: italic;
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'Railway';
+    src: url('fonts/rwl.ttf');
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'Railway';
+    src: url('fonts/rwbi.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Railway';
+    src: url('fonts/rwb.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Railway';
+    src: url('fonts/rweli.ttf');
+    font-style: italic;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Railway';
+    src: url('fonts/rwel.ttf');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/osr.ttf');
+}

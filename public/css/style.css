@@ -1,0 +1,89 @@
+html {
+    background-color: #58047D;
+    font-family: Railway;
+    color: white;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#taskbar {
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+}
+#name {
+    font-size: 4vh;
+    font-weight: lighter;
+    color: white;
+    margin-left: 6vw;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    line-height: 12vh;
+    cursor: default;
+    user-select: none;
+}
+#menuclick {
+    display: inline-block;
+    height: 8vh;
+    width: 8vh;
+    float: right;
+    font-family: Oswald;
+    font-size: 2.5vh;
+    line-height: 12vh;
+    cursor: pointer;
+    user-select: none;
+}
+#content {
+    width: 100%;
+    height: 80vh;
+    top: 20vh;
+    left: 0;
+    overflow-y: auto;
+    position: absolute;
+}
+#menu {
+    width: 100%;
+    height: 75vh;
+    padding-top: 25vh;
+    opacity: 0;
+    position: absolute;
+    left: 100%;
+    text-align: center;
+    font-family: Oswald;
+    overflow: hidden;
+    vertical-align: middle;
+    display: table;
+}
+.menuitem {
+    user-select: none;
+    cursor: default;
+    font-size: 6vh;
+    margin-top: 8vh;
+    display: block;
+    text-align: center;
+}
+
+
+/*Standard classes*/
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.relative {
+    position: relative;
+}
+.w-full {
+    width: 100%;
+}
