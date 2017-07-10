@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express.io');
 var favicon = require('serve-favicon');
 var bodyParser = require('body-parser');
 var path = require('path');
