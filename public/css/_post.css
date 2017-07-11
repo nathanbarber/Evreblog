@@ -30,4 +30,61 @@
     font-family: Oswald;
     font-size: 2vw;
     margin-left: 15vw;
+    display: inline-block;
+}
+
+#socketCount {
+    display: inline-block;
+    font-family: Oswald;
+    font-size: 2vw;
+    margin-left: 5vw;
+}
+
+/* Optimized */
+
+@media screen and (max-width: 768) {
+    #currentStory {
+        font-size: 5vw;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    #input {
+        font-size: 4vw;
+        width: 90vw; 
+    }
+    #inputWrap {
+        margin-left: 5vw;
+    }
+    #inputCount {
+        font-size: 3vw;
+        margin-left: 5vw;
+    }
+    #socketCount {
+        font-size: 3vw;
+        margin-left: 10vw;
+    }
+}
+
+@media screen and (min-width: 1024) {
+    #currentStory {
+        font-size: 2.5vw;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    #input {
+        font-size: 2vw;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+    #inputWrap {
+        margin-left: 5vw;
+    }
+    #inputCount {
+        font-size: 1vw;
+        margin-left: 20vw;
+    }
+    #socketCount {
+        font-size: 1vw;
+        margin-left: 4vw;
+    }
 }

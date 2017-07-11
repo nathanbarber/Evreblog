@@ -17,7 +17,7 @@ app.config(function($qProvider, $routeProvider, $locationProvider) {
     })
 });
 app.run(function($location) {
-    $location.path('home')
+    $location.path('home');
 });
 app.controller('root', function($scope, $location) {
     $scope.menuitems = ['HOME', 'FEED', 'POST'];
@@ -53,7 +53,15 @@ app.controller('root', function($scope, $location) {
         animate();
     }
     $scope.changePage = function(input) {
+        if($location.path() == '/post') {
+            if(socket) {
+                endSocket();
+            }
+        }
         $location.path(input.toLowerCase())
+        if($location.path() == '/post') {
+            createSocket();
+        }
     }
 })
 app.controller('home', function($scope, $location) {
