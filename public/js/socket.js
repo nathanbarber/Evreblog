@@ -15,4 +15,5 @@ function createSocket() {
 
 function endSocket() {
     socket.disconnect();
+    socket = undefined;
 }
